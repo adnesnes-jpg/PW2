@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Campus Event Registration App"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PW2">
+
+        <!-- CONTENT PROVIDER Wajib Didaftarkan Di Sini -->
+        <provider
+            android:name=".CampusContentProvider"
+            android:authorities="com.example.pw2.provider"
+            android:exported="true" />
+
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ConfirmationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

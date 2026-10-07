@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtRegNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration No:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtProgramme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programme:"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Registration Confirmed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- BUTTON UNTUK DEMO UPDATE -->
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE REGISTRATION"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="10dp" />
+
+    <!-- BUTTON UNTUK DEMO DELETE -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE REGISTRATION"
+        android:backgroundTint="#F44336"
+        android:layout_marginBottom="10dp" />
+
+    <!-- BUTTON KEMBALI KE HOME -->
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:backgroundTint="#2196F3" />
+
+</LinearLayout>
